@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "booter - Zero Zero";
+    src: url("/Images/booter-zero-zero.zip");
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: lightgreen;
+}
+
+
+html, body {
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+nav ul {
+    display: inline-flex;
+}
+
+nav li, a {
+    text-decoration: none;
+    list-style: none;
+    color: whitesmoke;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+h1 {
+    color: lightblue;
+    text-align: center;
+    font-size: 4em;
+    font-family: Georgia, 'Times New Roman', Times, serif, monospace;
+}
+
+li :hover {
+    color: blueviolet;
+    font-size: large;
+    background-color: aliceblue;
+}
+
+.main {
+    background-color: rgba(0,0,0, .6);
+    background-image: url(/Images/heading.jpeg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding: 30px;
+}
+
+.content {
+    margin: 1em;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.hello {
+    float: left;
+    margin: 15px;
+    border-radius: 50px;
+}
+
+footer {
+    background-color: skyblue;
+    color: white;
+    padding: 0.25em, 0.25em, 0, 0;
+    max-height: fit-content;
+}
+
+footer li {
+    display: flex; 
+}
+
+
+.footer1 {
+    color: white;
+    text-align: end;
+    align-items: center;
+}
+
+footer h1 {
+     color: white;
+}
+
+button {
+    text-align: center;
+    vertical-align: middle;
+    background-color: grey;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
