@@ -6,7 +6,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: lightgreen;
+    color: black;
 }
 
 
@@ -36,12 +36,14 @@ h1 {
     text-align: center;
     font-size: 4em;
     font-family: Georgia, 'Times New Roman', Times, serif, monospace;
+    text-shadow: 1px 1px 100pc 1px orange;
 }
 
 li :hover {
     color: blueviolet;
     font-size: large;
     background-color: aliceblue;
+  
 }
 
 .main {
@@ -49,7 +51,7 @@ li :hover {
     background-image: url(/Images/heading.jpeg);
     background-blend-mode: multiply;
     background-size: cover;
-    padding: 30px;
+    padding: 30px; 
 }
 
 .content {
@@ -70,16 +72,26 @@ footer {
     color: white;
     padding: 0.25em, 0.25em, 0, 0;
     max-height: fit-content;
+    box-shadow: 12px 12px 12px 1px black;
+    text-shadow: 12px 12px 12px black;
+    border-top: 2px solid black;
+    border-radius: 99pc;
+    align-items: center;
+    text-align: center;
 }
 
+.list {
+    display: center;
+    float: i
+}
 footer li {
-    display: flex; 
+    display: inline-flex; 
+    align-items: center;
 }
 
 
 .footer1 {
     color: white;
-    text-align: end;
     align-items: center;
 }
 
@@ -94,4 +106,67 @@ button {
     color: white;
     border-radius: 50px;
     cursor: pointer;
+    padding: 0.67em;
+    border: 2px solid darkblue;
+    font-size: 1em;
+}
+
+
+.btn {
+    margin: 0 auto;
+    display: block;
+    font-size: 1.5em;
+    align-items: center;
+}
+
+.play {
+    background-color: transparent;
+    text-align: center;
+    color: black;
+    margin: 0 auto;
+    display: block;
+    font-size: 4em;
+    border-radius: 50pc;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.sa :hover{
+    background-color: tan;
+}
+
+.modify {
+text-align: left;
+padding-left: 0;
+background-color: lightgrey;
+box-shadow: 1px 1px 1px 2px darkgray;
+border-radius: 50px;
+
+}
+
+.tour {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin: 1em;
+    text-align: left;
+}
+
+.tour2 {
+    
+    padding-bottom: 1em;
+    margin: 1em;
+    text-align: left;
+}
+h2 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.item {
+    padding-right: 0.5em;
+    display: inline-block;
+    font-weight: 200px;
+    width: 11%;
+    text-decoration: underline;
 }
